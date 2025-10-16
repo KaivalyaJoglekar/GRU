@@ -1,20 +1,14 @@
-
-# Python virtual environment
+# Ignore virtual environment
 .venv/
 
-# Python cache files
+# Ignore Python cache
 __pycache__/
+*.pyc
 
-# Ignore all CSV files
+# Ignore CSV files
 *.csv
 
-# Ignore Python virtual environment
-.venv/
-
-# Ignore Python cache files
-__pycache__/
-# Ignore all large source CSV datasets
-*.csv
-
-# IMPORTANT: Exception rule to KEEP your prepared dataset
-!prepared_dataset/master_web_attack_dataset.csv
+# Ignore system files
+.DS_Store
+Thumbs.db
+git status
