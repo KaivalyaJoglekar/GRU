@@ -8,7 +8,7 @@ The model is trained on a large, diverse dataset aggregated from four different 
 
   * **Deep Learning Core**: Utilizes a GRU network, which is highly effective for sequential data analysis.
   * **Comprehensive Dataset**: Trained on a combined dataset of over 700,000 samples, including general web attacks, SQLi, XSS, and malicious URLs.
-  * **High Performance**: Achieves **\~97% accuracy** on the test set, with high precision and recall.
+  * **High Performance**: Achieves **~97% accuracy** on the test set, with high precision and recall.
   * **Real-Time Prediction**: Includes functionality to analyze new, unseen payloads instantly.
   * **Jupyter Notebook Environment**: The entire pipeline, from data preparation to model training and evaluation, is contained within a single, easy-to-run Jupyter Notebook (`model.ipynb`).
 
@@ -129,3 +129,5 @@ The confusion matrix confirmed strong performance, although some misclassificati
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+

@@ -1,0 +1,12 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+
+# Ignore all large source CSV datasets
+*.csv
+
+# IMPORTANT: Exception rule to KEEP your prepared dataset
+!prepared_dataset/master_web_attack_dataset.csv
